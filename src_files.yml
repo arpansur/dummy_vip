@@ -1,14 +1,14 @@
 dummy_vip:
-  flags: [
-    skip_synthesis,
-  ]
   incdirs: [
     ../include,
-  ]
-   vlog_opts: [
-    -L common_cells,
   ]
   files: [
     rtl/dummy_submodule.sv,
     rtl/dummy_top.sv,
+  ]
+  flags: [
+    skip_synthesis,
+  ]
+  vlog_opts: [
+    -L common_cells,
   ]

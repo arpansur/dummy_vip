@@ -1,6 +1,6 @@
 dummy_vip:
   incdirs: [
-    ../include/dummy_module,
+    include/dummy_module,
   ]
   files: [
     rtl/dummy_submodule.sv,

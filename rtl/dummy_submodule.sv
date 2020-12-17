@@ -19,7 +19,7 @@
 // specific language governing permissions and limitations under the License.
 //-----------------------------------------------------------------------------
 
-`include "dummy_module/dummy_header.svh"
+`include "dummy_header.svh"
 
 module dummy_submodule;
   import cf_math_pkg::*;
